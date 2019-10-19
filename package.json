@@ -1,0 +1,48 @@
+{
+  "name": "react-canvas",
+  "version": "0.0.1",
+  "description": "A simple React d3 wrapper",
+  "main": "lib/react-canvas.js",
+  "scripts": {
+    "test": "test",
+    "storybook": "start-storybook"
+  },
+  "repository": "git+https://github.com/hwstovall/react-canvas.git",
+  "keywords": [
+    "react",
+    "d3",
+    "graph",
+    "data",
+    "responsive"
+  ],
+  "author": "hwstovall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwstovall/react-canvas/issues"
+  },
+  "homepage": "https://github.com/hwstovall/react-canvas#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@storybook/addon-knobs": "^5.2.4",
+    "@storybook/react": "^5.1.10",
+    "@types/node": "^12.7.1",
+    "@types/storybook__react": "^4.0.2",
+    "@types/webpack-env": "^1.14.0",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1"
+  },
+  "dependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "d3": "^5.9.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
